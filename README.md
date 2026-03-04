@@ -46,6 +46,22 @@ The DADM_UT add-in is independently maintained. It is provided for free and with
 5. Click “Open”
 6. Click “OK” in the add-ins window
 
+## Update from an older version
+
+If you already have an older DADM_UT add-in installed, use these steps to switch to a newer `.xlam` file:
+
+1. Download the updated `DADM_UT.xlam` file and save it to a stable folder path.
+2. Open Excel.
+3. Open the Add-ins dialog:
+   - Windows: `File` -> `Options` -> `Add-ins` -> `Go...`
+   - Mac: `Tools` -> `Excel Add-ins...`
+4. Uncheck the old `DADM_UT` entry.
+5. Click `Browse...` and select the updated `DADM_UT.xlam`.
+6. Ensure the updated `DADM_UT` checkbox is checked, then click `OK`.
+7. Fully quit and reopen Excel.
+
+If Excel still appears to use the old version, remove stale add-in entries and repeat the steps above, making sure the selected file path is the updated `.xlam`.
+
 ## Common Problems
 ### Troubleshoot Installation on Windows
 
